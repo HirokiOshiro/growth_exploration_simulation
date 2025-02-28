@@ -2,12 +2,28 @@
 <html>
 <head>
     <title>Growth Exploration Simulation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .video-container {
+            position: relative;
+            width: 100%;
+            max-width: 1000px; /* 最大幅を設定（必要に応じて調整） */
+            margin: 0 auto;
+        }
+        
+        video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
 </head>
 <body>
-    <h1>Growth Exploration Simulation</h1>
-    <video width="1280" height="620" controls>
+    <div class="video-container">
+        <video controls>
         <source src="growth_exploration_simulation.mp4" type="video/mp4">
         お使いのブラウザは動画タグをサポートしていません。
-    </video>
+        </video>
+    </div>
 </body>
 </html>
